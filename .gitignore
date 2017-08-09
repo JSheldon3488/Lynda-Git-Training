@@ -1,0 +1,14 @@
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+# This will ignore everything in the log file that ends in .log even if it ends with a #
+# The star will only ignore files not additional folders!
+log/*.log.[0-9]
+# This will ignore everything in the photoshop file
+assets/photoshop/
+# This will ignore everything in the videos file
+assets/videos/
+# This will not ignore anything in the videos file with the name of tour_ and is an mp4 file
+!assets/videos/tour_*.mp4
